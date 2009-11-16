@@ -2,6 +2,7 @@ $testing = true
 SPEC = File.dirname(__FILE__)
 $:.unshift File.expand_path("#{SPEC}/../lib")
 
+require 'rubygems'
 require 'auto/require'
 require 'pp'
 

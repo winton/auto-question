@@ -7,8 +7,6 @@ GEM_SPEC = Gem::Specification.new do |s|
   s.homepage = "http://github.com/winton/#{GEM_NAME}"
   s.summary = "Ask questions from Auto"
   # == CONFIGURE ==
-  s.add_dependency('auto', '=0.1.2')
-  s.executables << GEM_NAME
   s.extra_rdoc_files = [ "README.markdown" ]
   s.files = GEM_FILES.to_a
   s.has_rdoc = false
